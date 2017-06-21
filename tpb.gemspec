@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'tpb/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "tpb"
+  spec.name          = "thepiratebay-ruby"
   spec.version       = Tpb::VERSION
   spec.authors       = ["Feña Agar"]
   spec.email         = ["fernando.agar@gmail.com"]
