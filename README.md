@@ -28,6 +28,14 @@ Tpb::Search.new ('the big bang theory', pages: 2, sort_by: :seeders, category: :
 
 The only required param is the search term, the rest is optional and defaulted to the example values.
 
+An example response looks like this:
+
+```ruby
+[#<Tpb::Torrent:0x007f9f8aa1bce8 @title="The.Big.Bang.Theory.S09E04.HDTV.x264-LOL[ettv]", @seeders=91, @leechers=16, @magnet_link="magnet:?xt=urn:btih:a455ab3d5814ca566e3d7fbbac65bb72ffc4de43&dn=The.Big.Bang.Theory.S09E04.HDTV.x264-LOL%5Bettv%5D&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969", @category="Video", @torrent_id="12560421", @url="/torrent/12560421/The.Big.Bang.Theory.S09E04.HDTV.x264-LOL[ettv]">, (...)]
+```
+
+The result is an array of `Torrent`. Check the Torrent class definition for available attributes.
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
