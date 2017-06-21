@@ -9,7 +9,7 @@ I just wanted to do things differently, but I admit I copied large part of the c
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'tpb'
+gem 'thepiratebay-ruby'
 ```
 
 And then execute:
@@ -18,11 +18,13 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install tpb
+    $ gem install thepiratebay-ruby
 
 ## Usage
 
 ```ruby
+require 'tpb'
+
 Tpb::Search.new ('the big bang theory', pages: 2, sort_by: :seeders, category: :none)
 ```
 
