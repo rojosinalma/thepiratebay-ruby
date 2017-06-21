@@ -1,4 +1,3 @@
-Bundler.require(:default, :development)
 require "tpb/search"
 require "tpb/category"
 require "tpb/sort_by"

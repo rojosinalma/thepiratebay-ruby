@@ -1,8 +1,8 @@
 # Tpb
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/tpb`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is a gem strongly inspired in [this](https://github.com/mhsjlw/thepiratebay) and [this](https://github.com/emnl/thepiratebay) gems.
 
-TODO: Delete this and the text above, and describe your gem
+I just wanted to do things differently, but I admit I copied large part of the code at the current version of this gem.
 
 ## Installation
 
@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+Tpb::Search.new ('the big bang theory', pages: 2, sort_by: :seeders, category: :none)
+```
+
+The only required param is the search term, the rest is optional and defaulted to the example values.
 
 ## Development
 
@@ -32,7 +36,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/tpb.
+Bug reports and pull requests are welcome on GitHub at https://github.com/elfenars/tpb.
 
 
 ## License
