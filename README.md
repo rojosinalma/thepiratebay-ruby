@@ -30,7 +30,7 @@ Or install it yourself as:
 ```ruby
 require 'tpb'
 
-Tpb::Search.new ('the big bang theory', pages: 2, sort_by: :seeders, category: :none)
+Tpb::Search.new('the big bang theory', pages: 2, sort_by: :seeders, category: :none)
 ```
 
 The only required param is the search term, the rest is optional and defaulted to the example values.
