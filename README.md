@@ -1,7 +1,6 @@
 # The Pirate Bay Ruby
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/c153ad6cde7212dc4a24/maintainability)](https://codeclimate.com/github/elfenars/thepiratebay-ruby/maintainability)
-[![Dependency Status](https://gemnasium.com/badges/github.com/elfenars/thepiratebay-ruby.svg)](https://gemnasium.com/github.com/elfenars/thepiratebay-ruby)
 [![Gem Version](https://badge.fury.io/rb/thepiratebay-ruby.svg)](https://badge.fury.io/rb/thepiratebay-ruby)
 
 
@@ -51,7 +50,10 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/elfenars/tpb.
+1. Clone
+2. Do your thing
+3. Create PR
+4. Ping me
 
 
 ## License
